@@ -1,0 +1,117 @@
+﻿/*
+ *
+ * Template Name: Login
+ * Description: The css template for prometheus login web UI
+ * Author: Rainbowhhy
+ *
+ */
+
+body {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.page-container {
+    width: 350px;
+    height: auto;
+    margin: 120px auto 0 auto;
+}
+
+span {
+    vertical-align: middle;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 18px;
+    border-radius: 8%;
+}
+
+input {
+    width: 270px;
+    height: 42px;
+    margin-top: 25px;
+    background: rgba(45, 45, 45, .15);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .15);
+    font-size: 14px;
+    color: #fff;
+    padding: 0;
+    text-indent: 15px;
+}
+
+input:-moz-placeholder {
+    color: #fff;
+}
+
+input::-moz-placeholder {
+    color: #fff;
+}
+
+input:-ms-input-placeholder {
+    color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+form, input {
+    text-decoration: none;
+    width: 100%;
+}
+
+.captcha {
+    width: 230px;
+    float: left;
+}
+
+.code {
+    width: 118px;
+    color: blue;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 30px;
+    text-indent: 0;
+}
+
+.submit_button {
+    font-size: 24px;
+    letter-spacing: 15px;
+    cursor: pointer;
+    color: #fff;
+    background: #f40;
+    text-align: center;
+    height: 44px;
+    text-indent: 0;
+    border-radius: 6px;
+    border: 1px solid #ff730e;
+    font-weight: 700;
+}
+
+
+.submit_button:hover {
+    background: #EF444E;
+}
+
+.submit_button:active {
+    border: 0 solid #ef4300;
+    background: #EF444E;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+
